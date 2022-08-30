@@ -12,8 +12,9 @@ const main = async () => {
     const province = config.PROVINCE
     const city = config.CITY
     // 获取每日天气
-    const weather{
+    const {
         // 天气
+        weather:weather,
         // 最高温度
         temp: maxTemperature, 
         // 最低温度
